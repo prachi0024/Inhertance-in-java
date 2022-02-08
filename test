@@ -1,0 +1,25 @@
+package inheritance;
+class parent{
+	void parent1()
+	{
+		System.out.println("I am the method of parent class");
+	}
+}
+class child extends parent
+{
+	void child1() 
+	{
+		System.out.println("I am the method of child class");
+	}
+}
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		child obj= new child();
+		obj.parent1();
+		obj.child1();
+
+	}
+
+}
