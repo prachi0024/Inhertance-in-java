@@ -1,0 +1,18 @@
+package inheritance;
+ class Employee
+ {
+	 double salary = 30000;
+ }
+ public class Main extends Employee{
+	 void compute()
+	 {
+		 double bonus = 7.8;
+		 double total = salary*bonus;
+		 System.out.println("Total salary of an employee: " +total);
+	 }
+	public static void main(String[] args) {
+		Main obj = new Main();
+		obj.compute();
+	}
+
+}
